@@ -13,27 +13,27 @@
       "BOT_TOKEN": {
          "description": "Your bot token. Get one from @BotFather duh",
          "required": true,
-         "value": "5562993998:AAH392XAEbHex5KD-LafXJ0_HLdkY9fQqNM"
+         "value": ""
       },
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": "5441410"
+         "value": ""
       },
       "API_HASH": {
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": "a1a4fe7d23328f419d98a58339fd9980"
+         "value": ""
       },    
       "CHAT_ID": {
          "description": "put chat id where bot can send all request",
          "required": true,
-         "value": "-1001745028967"
+         "value": ""
       },      
       "OWNER": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1451257129"
+         "value": ""
      },
  
    }
