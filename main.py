@@ -19,14 +19,15 @@ from alternation import typing_action
 
 bot = Client(
     "notesbot",
-    api_id=os.environ['API_ID'],
-    api_hash=os.environ['API_HASH'],
-    bot_token=os.environ['BOT_TOKEN'],
+    api_id=os.environ['5441410'],
+    api_hash=os.environ['a1a4fe7d23328f419d98a58339fd9980'],
+    bot_token=os.environ['5562993998:AAH392XAEbHex5KD-LafXJ0_HLdkY9fQqNM'],
 
 )
 
-CHAT_ID = os.environ.get('CHAT_ID')
-owner = int(os.environ.get('OWNER'))
+CHAT_ID = os.environ.get('
+-1001745028967')
+owner = int(os.environ.get('1451257129'))
 
 
 def call_back_in_filter(data):
