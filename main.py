@@ -25,7 +25,7 @@ bot = Client(
 
 )
 
-CHAT_ID = os.environ.get('-1001745028967')
+CHAT_ID = os.environ.get('-1001640127486')
 owner = int(os.environ.get('1451257129'))
 
 
