@@ -21,7 +21,7 @@ bot = Client(
     "notesbot",
     api_id=os.environ['5441410'],
     api_hash=os.environ['a1a4fe7d23328f419d98a58339fd9980'],
-    bot_token=os.environ['5562993998:AAH392XAEbHex5KD-LafXJ0_HLdkY9fQqNM'],
+    bot_token=os.environ['5574259099:AAHwaZrsBAqmATzCjVplU2Ayy053VKFeJMc'],
 
 )
 
@@ -39,8 +39,8 @@ def call_back_in_filter(data):
 @bot.on_message(filters.command('start'))
 def start(_,message): 
     keyboard = [] 
-    keyboard.append([InlineKeyboardButton ("Our Channel", url="https://t.me/Anime_Publish")])
-    message.reply_text(text =f""" **Hello dear**,\n\n Tell your request, query and other prblm related to channel. You tell directly to channel admins to resolve problem.\n\n Use = /request (query) """ , reply_markup=InlineKeyboardMarkup(keyboard))
+    keyboard.append([InlineKeyboardButton ("Our Channel", url="https://t.me/pokesensei")])
+    message.reply_text(text =f""" **Hello dear**,\n\n Tell your cartoon request, query and other prblm. You tell directly to lord sushanth to resolve problem.\n\n Use = /request (query) """ , reply_markup=InlineKeyboardMarkup(keyboard))
 
 
 @bot.on_message(filters.command('request'))
