@@ -19,7 +19,7 @@ from alternation import typing_action
 
 bot = Client(
     "notesbot",
-    api_id='5441410'
+    api_id='5441410', 
     api_hash='a1a4fe7d23328f419d98a58339fd9980'
     bot_token='5574259099:AAHwaZrsBAqmATzCjVplU2Ayy053VKFeJMc'
 
