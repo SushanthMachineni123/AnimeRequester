@@ -20,13 +20,13 @@ from alternation import typing_action
 bot = Client(
     "notesbot",
     api_id='5441410', 
-    api_hash='a1a4fe7d23328f419d98a58339fd9980'
-    bot_token='5574259099:AAHwaZrsBAqmATzCjVplU2Ayy053VKFeJMc'
+    api_hash='a1a4fe7d23328f419d98a58339fd9980', 
+    bot_token='5574259099:AAHwaZrsBAqmATzCjVplU2Ayy053VKFeJMc', 
 
 )
 
-CHAT_ID = '-1001640127486'
-owner = int'1451257129'
+CHAT_ID = '-1001640127486', 
+owner = int'1451257129', 
 
 
 def call_back_in_filter(data):
