@@ -25,8 +25,8 @@ bot = Client(
 
 )
 
-CHAT_ID = '-1001640127486', 
-owner = int'1451257129', 
+CHAT_ID = '-1001640127486'
+owner = int'1451257129'
 
 
 def call_back_in_filter(data):
